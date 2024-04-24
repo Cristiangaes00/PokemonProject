@@ -1,0 +1,113 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+thead {
+  background-color: #007BFF;
+  color: white;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tbody tr:hover {
+  background-color: #dddfe2;
+}
+
+td {
+  border-bottom: 2px solid #f8f9fa;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.PageSelectorContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.PageSelector {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.PageSelector:hover {
+  background-color: #0056b3;
+}
+
+.PageSelected{
+  background-color: #0056b3;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 15%;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #0056b3;
+  align-items: center; /* Cambio aquí para alinear correctamente al fondo */
+}
+
+.selector {
+  padding: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 15%;
+}
+/* Estilo para la opción seleccionada dentro del select */
+.selector option:checked, .selector option:selected {
+  background-color: #0056b3; /* Cambia a tu color deseado */
+  color: white;
+}
+
+/* Asegurarse de que los colores se mantengan incluso en diferentes estados del selector */
+.selector option {
+  color: black; /* Color para las opciones no seleccionadas */
+  background-color: white; /* Fondo para opciones no seleccionadas */
+}
+
+.selector {
+  /* Añadir otros estilos si es necesario para mejorar la compatibilidad y apariencia */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: white; /* Color de fondo cuando está cerrado */
+}
+
+.filterContainer{
+  display: flex;
+  justify-content: justify;
+  gap: 10px;
+  margin-top: 20px;
+}
+

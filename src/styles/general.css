@@ -1,0 +1,71 @@
+div{
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.card{
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 180px;
+  display: flex ;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.pokemonContainer{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardTitle{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.selectorGen{
+  padding: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 15%;
+}
+
+.selectorGen:hover{
+  background-color: #f9f9f9;
+}
+
+.titleAndSelector{
+  display: flex;
+  justify-content: justify;
+  gap: 3%;
+  align-items: center;
+}
+.typesSelectorContainer{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  width: 30%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+.selectorType{
+  padding: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}

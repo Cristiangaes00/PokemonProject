@@ -1,0 +1,153 @@
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modalContainer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  width: 70%;
+  height: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(178, 37, 37);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shinyButton {
+  border: none;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.abilitiesStatsContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.debilitiesContainer{
+  width: 50%;
+}
+.debilities{
+  width: 100%;
+}
+
+.debility{
+  margin: 1%;
+}
+
+.shinyButton:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pokemonData {
+  display: flex;
+  gap: 7px;
+  padding-bottom: 10px;
+}
+
+.abilitiesContainer {
+  margin-left: 30px;
+}
+
+.statsContainer {
+  margin-left: 30px;
+}
+
+.stat{
+  display: flex;
+  gap: 10px;
+}
+
+.statName {
+  font-weight: bold;
+}
+
+
+.dataTitle {
+  font-weight: bold;
+}
+.dataValue {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.imageDebilities {
+  display: flex;
+  gap: 10px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  width: 50%;
+}
+
+
+.imageContainer img {
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.titleContainer .typeContainer {
+  font-size: 22px;
+}
+
+.modalContainer::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+.modalContainer::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del riel de la barra de desplazamiento */
+  border-radius: 10px; /* Redondea los bordes del riel */
+}
+
+.modalContainer::-webkit-scrollbar-thumb {
+  background: #888; /* Color del control deslizante de la barra de desplazamiento */
+  border-radius: 10px; /* Redondea los bordes del control deslizante */
+}
+
+.modalContainer::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color del control deslizante al pasar el mouse */
+}
+
